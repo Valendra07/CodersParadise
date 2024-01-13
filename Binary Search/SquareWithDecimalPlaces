@@ -44,7 +44,7 @@ int floorSqrt(int n)
 
 //We can also find exact square as follows:
 
-double PreciseSquare(int tempSolution,int precision){
+double PreciseSquare(int tempSolution,int precision,int n){
 double ans=tempSolution;
 double factor=1;
 for(int i=0; i<precision; i++){
